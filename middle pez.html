@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>پژوهشگران برتر | اندیشکده حقوق بین‌الملل اقتصادی و تجارت بین‌الملل</title>
+<meta name="description" content="پژوهشگران برتر اندیشکده حقوق بین‌الملل اقتصادی و تجارت بین‌الملل">
+<meta name="theme-color" content="#0a6b5f">
+<link rel="icon" href="https://raw.githubusercontent.com/Tejarat-Azad-com/andishkade/refs/heads/main/IPBGmQ.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--g1:#0f8f7e;--g2:#0a6b5f;--g3:#064a42;--bg:#f6f8f8;--card:#fff;--ink:#1c2a2a;--mut:#667575;--line:#dfe7e6;--soft:#eaf1f0;--gold:#b8923a;--red:#c8202f;--r:14px;--w:1180px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Vazirmatn,Tahoma,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 20px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+/* ===== Header (same as main) ===== */
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0 8px}
+.flagbox{display:flex;align-items:center;gap:14px}
+.flag{height:54px;width:auto;object-fit:contain}
+.date b{color:var(--g2);font-size:1.05rem}
+.date small{display:block;color:var(--mut);font-size:.85rem}
+.date .cd{color:#a07c2a;font-weight:700}
+.brand-title{font-weight:800;color:var(--g3);font-size:1.15rem;text-align:left;line-height:1.5}
+.band{position:relative;height:26px;background:var(--g2);border-radius:6px;margin-top:34px;background-image:linear-gradient(90deg,var(--g3),var(--g1),var(--g3))}
+.band:after{content:"";position:absolute;inset:11px 0 auto;height:1px;background:#fff7}
+.medal{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:138px;height:138px;border-radius:50%;background:#fff;border:6px solid #e9efe9;box-shadow:0 0 0 3px #fff,0 6px 20px #0a6b5f44;display:grid;place-items:center;z-index:2}
+.medal img{width:104px;height:104px;object-fit:contain}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0 10px}
+nav ul{list-style:none;display:flex;gap:26px;align-items:center}
+nav a{font-weight:500;font-size:.95rem;padding:6px 0;position:relative;transition:color .2s}
+nav a:after{content:"";position:absolute;right:0;bottom:0;height:2px;width:0;background:var(--g1);transition:width .25s}
+nav a:hover{color:var(--g1)}nav a:hover:after{width:100%}
+.live:before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:#e91e63;margin-left:6px;animation:pulse 1.4s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 6px #e91e6322;opacity:.6}}
+.sbox{display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--line);padding:2px 6px;color:var(--mut)}
+.sbox input{border:0;background:none;font:inherit;outline:0;width:140px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid var(--line);border-radius:10px;width:42px;height:42px;font-size:1.3rem;cursor:pointer;color:var(--g2)}
+/* ===== Page hero ===== */
+.crumbs{display:flex;align-items:center;gap:8px;font-size:.88rem;color:var(--mut);padding:22px 0 0;flex-wrap:wrap}
+.crumbs a:hover{color:var(--g1)}
+.crumbs span[aria-current]{color:var(--g3);font-weight:600}
+.page-head{text-align:center;padding:34px 0 8px}
+.page-head h1{font-size:2.4rem;font-weight:800;color:var(--g3);margin-bottom:8px}
+.page-head h1:after{content:"";display:block;width:70px;height:4px;background:linear-gradient(90deg,var(--g1),var(--gold));border-radius:4px;margin:12px auto 0}
+.page-head p{color:var(--mut);font-size:1.02rem;max-width:680px;margin:8px auto 0}
+/* ===== Filter / count bar ===== */
+.fac-tools{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:34px 0 22px;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 20px}
+.fac-tools .cnt{color:var(--g2);font-weight:700}
+.fac-tools input{font:inherit;padding:9px 18px;border-radius:30px;border:1px solid var(--line);outline:0;min-width:240px;flex:1;max-width:340px;transition:border-color .2s}
+.fac-tools input:focus{border-color:var(--g1)}
+/* ===== Faculty / Researcher grid ===== */
+.fac-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;padding-bottom:20px}
+.fac-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s,border-color .3s;position:relative}
+.fac-card:hover{transform:translateY(-6px);box-shadow:0 16px 40px #0a6b5f22;border-color:#bfe0db}
+.fac-photo{aspect-ratio:4/5;background:linear-gradient(160deg,var(--g1) 0%,var(--g3) 100%);display:grid;place-items:center;position:relative;overflow:hidden}
+.fac-photo::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 15%,rgba(255,255,255,.18),transparent 55%)}
+.fac-photo::after{content:"";position:absolute;inset:auto 0 0;height:60px;background:linear-gradient(to top,rgba(0,0,0,.28),transparent);pointer-events:none}
+.fac-photo svg{width:38%;height:38%;stroke:rgba(255,255,255,.65);fill:none;stroke-width:1.1;transition:transform .45s ease,stroke .3s}
+.fac-card:hover .fac-photo svg{transform:scale(1.1);stroke:rgba(255,255,255,.95)}
+.fac-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fac-badge{position:absolute;top:12px;right:12px;z-index:2;background:#fff;color:var(--g2);border-radius:20px;padding:3px 12px;font-size:.72rem;font-weight:800;box-shadow:0 4px 12px #00000022;display:flex;align-items:center;gap:5px}
+.fac-badge:before{content:"★";color:var(--gold);font-size:.8rem}
+.fac-info{padding:20px 20px 22px;display:flex;flex-direction:column;gap:4px;flex:1}
+.fac-info h3{font-size:1.15rem;font-weight:800;color:var(--g3);line-height:1.5}
+.fac-role{color:var(--g2);font-size:.92rem;font-weight:600;margin-bottom:4px}
+.fac-bio{color:var(--mut);font-size:.85rem;line-height:1.75;flex:1}
+.fac-more{margin-top:14px;display:inline-flex;align-items:center;gap:6px;color:var(--g1);font-weight:700;font-size:.9rem;padding-top:12px;border-top:1px solid var(--line);transition:gap .2s,color .2s}
+.fac-card:hover .fac-more{gap:12px;color:var(--g2)}
+.fac-more:after{content:"←";font-size:1rem;transition:transform .2s}
+.fac-card:hover .fac-more:after{transform:translateX(-3px)}
+/* ===== Empty state ===== */
+.fac-empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--mut);background:#fff;border:1px dashed var(--line);border-radius:var(--r)}
+/* ===== Footer (same as main) ===== */
+footer{margin-top:80px;background:var(--g3);color:#d4e6e3;position:relative}
+footer:before{content:"";display:block;height:6px;background:linear-gradient(90deg,#239f40 33%,#fff 33% 66%,#da0000 66%)}
+.fg{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:36px;padding:44px 20px}
+footer h4{color:#fff;margin-bottom:10px}
+footer li{list-style:none}footer li a:hover{color:#fff}
+.copy{border-top:1px solid #ffffff22;text-align:center;padding:16px;font-size:.85rem;color:#9fc3bd}
+.logo-f{display:flex;gap:14px;align-items:center;margin-bottom:12px}.logo-f img{width:64px;background:#fff;border-radius:50%;padding:4px}
+.tot{position:fixed;left:18px;bottom:18px;width:46px;height:46px;border-radius:50%;border:0;background:var(--g2);color:#fff;font-size:1.2rem;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;box-shadow:0 4px 14px #0004}
+.tot.show{opacity:1;pointer-events:auto}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+.skip{position:absolute;right:10px;top:-60px;background:var(--g2);color:#fff;padding:10px 16px;border-radius:0 0 10px 10px;z-index:99;transition:top .2s}.skip:focus{top:0}
+/* ===== Responsive ===== */
+@media(max-width:1020px){
+  .fac-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:760px){
+  .burger{display:block}.bar{flex-wrap:wrap}
+  nav{order:3;width:100%;display:none}nav.open{display:block;animation:rise .3s}
+  @keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+  nav ul{flex-direction:column;align-items:stretch;gap:0;background:#fff;border:1px solid var(--line);border-radius:12px}
+  nav li a{display:block;padding:12px 18px;border-bottom:1px solid var(--line)}
+  .top{flex-wrap:wrap}.brand-title{text-align:right;width:100%}
+  .medal{width:104px;height:104px}.medal img{width:78px;height:78px}.band{margin-top:26px}
+  .page-head h1{font-size:1.8rem}
+  .fac-grid{grid-template-columns:1fr}
+  .fg{grid-template-columns:1fr}
+  .sbox input{width:100px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#res-list">پرش به فهرست پژوهشگران برتر</a>
+
+<header class="wrap">
+  <div class="top">
+    <div class="flagbox">
+      <img class="flag" src="https://raw.githubusercontent.com/Tejarat-Azad-com/andishkade/refs/heads/main/IH5VdZkgswxZIPrDrj6PjmsgKjs-o9QHiz5JTL-7rHVLkPxSVA.png" alt="پرچم جمهوری اسلامی ایران">
+      <div class="date"><b id="today">—</b><small><span class="cd">پایگاه رسمی</span> · جمهوری اسلامی ایران</small></div>
+    </div>
+    <div class="brand-title">اندیشکده حقوق بین‌الملل اقتصادی<br>و تجارت بین‌الملل</div>
+  </div>
+  <div class="band"><div class="medal"><img src="https://raw.githubusercontent.com/Tejarat-Azad-com/andishkade/refs/heads/main/IPBGmQ.png" alt="لوگوی اندیشکده"></div></div>
+  <div class="bar">
+    <button class="burger" aria-label="منو" aria-expanded="false" id="bg">☰</button>
+    <nav id="nav"><ul>
+      <li><a href="andish kade 2.html">خانه</a></li>
+      <li><a href="andish kade 2.html#groups">فعالیت‌ها</a></li>
+      <li><a href="andish kade 2.html#experts">معرفی اندیشکده</a></li>
+      <li><a href="andish kade 2.html#news">چندرسانه‌ای</a></li>
+      <li><a href="blank.html" class="live">پخش زنده</a></li>
+    </ul></nav>
+    <label class="sbox">🔍︎<input type="search" id="gs" placeholder="جستجو" aria-label="جستجو"></label>
+  </div>
+</header>
+
+<main class="wrap" id="res-list">
+  <nav class="crumbs" aria-label="مسیر صفحه">
+    <a href="andish kade 2.html">خانه</a>
+    <span>›</span>
+    <a href="andish kade 2.html#experts">پژوهشگران</a>
+    <span>›</span>
+    <span aria-current="page">پژوهشگران برتر</span>
+  </nav>
+
+  <header class="page-head">
+    <h1>پژوهشگران برتر</h1>
+    <p>پژوهشگران برتر اندیشکده حقوق بین‌الملل اقتصادی و تجارت بین‌الملل؛ متشکل از وکلا، پژوهشگران و متخصصان برجسته حوزه حقوق تجارت، داوری و اقتصاد بین‌الملل.</p>
+  </header>
+
+  <div class="fac-tools">
+    <span class="cnt" id="facCount">— پژوهشگر برتر</span>
+    <input type="search" id="facSearch" placeholder="جستجوی نام یا سمت..." aria-label="جستجوی پژوهشگر برتر">
+  </div>
+
+  <section class="fac-grid" id="facGrid" aria-label="فهرست پژوهشگران برتر"></section>
+</main>
+
+<footer id="footer">
+  <div class="wrap fg">
+    <div><div class="logo-f"><img src="https://raw.githubusercontent.com/Tejarat-Azad-com/andishkade/refs/heads/main/IPBGmQ.png" alt=""><h4>اندیشکده حقوق بین‌الملل اقتصادی<br>و تجارت بین‌الملل</h4></div><p>پایگاه الکترونیکی رسمی اندیشکده؛ مرجع تحلیل و سیاست‌پژوهی در حوزه حقوق بین‌الملل اقتصادی و تجارت بین‌الملل.</p></div>
+    <div><h4>دسترسی‌ها</h4><ul><li><a href="andish kade 2.html#experts">پژوهشگران</a></li><li><a href="andish kade 2.html#groups">گروه‌های پژوهشی</a></li><li><a href="andish kade 2.html#news">اخبار</a></li></ul></div>
+    <div><h4>ارتباط با ما</h4><ul><li>تهران، جمهوری اسلامی ایران</li><li><a href="#">تماس و پیشنهادات</a></li></ul></div>
+  </div>
+  <div class="copy">کلیه حقوق این پایگاه متعلق به اندیشکده حقوق بین‌الملل اقتصادی و تجارت بین‌الملل است.</div>
+</footer>
+<button class="tot" id="tot" aria-label="بازگشت به بالا">↑</button>
+
+<script>
+/* ====== داده پژوهشگران برتر ====== */
+const RESEARCHERS = [
+  {id:'mousavi-khadem', name:'جناب آقای رسول موسوی خادم', role:'وکیل پایه یک دادگستری | کارشناسی ارشد حقوق تجارت بین‌الملل', bio:'وکیل پایه یک دادگستری و پژوهشگر حقوق تجارت بین‌الملل؛ فعال در دعاوی تجاری و داوری بین‌المللی.'},
+  {id:'mahmoudi',       name:'سرکار خانم امینه محمودی',   role:'وکیل پایه یک دادگستری | کارشناسی ارشد حقوق تجارت بین‌الملل', bio:'وکیل پایه یک دادگستری و پژوهشگر حقوق تجارت بین‌الملل؛ متخصص قراردادهای تجاری و حل‌وفصل اختلافات.'},
+  {id:'researcher-03',  name:'دکتر علی رضایی',             role:'پژوهشگر ارشد حقوق بین‌الملل اقتصادی', bio:'پژوهشگر حوزه حقوق اقتصادی بین‌الملل، سرمایه‌گذاری خارجی و موافقت‌نامه‌های تجاری.'},
+  {id:'researcher-04',  name:'دکتر سارا محمدی',            role:'پژوهشگر حقوق تجارت بین‌الملل',         bio:'متخصص مطالعات تطبیقی تجارت منطقه‌ای، سازمان تجارت جهانی و همگرایی‌های اقتصادی.'},
+  {id:'researcher-05',  name:'دکتر حسین کاظمی',            role:'پژوهشگر داوری و حل‌وفصل اختلافات',      bio:'پژوهشگر در حوزه داوری تجاری بین‌المللی، آیین دادرسی و اجرای آرای داوری.'},
+  {id:'researcher-06',  name:'دکتر مریم احمدی',            role:'پژوهشگر حقوق حمل‌ونقل بین‌المللی',      bio:'متخصص حقوق حمل‌ونقل دریایی، زمینی و هوایی و قراردادهای لجستیک بین‌المللی.'},
+  {id:'researcher-07',  name:'دکتر رضا نوری',              role:'پژوهشگر حقوق سرمایه‌گذاری خارجی',       bio:'پژوهشگر در حوزه حمایت از سرمایه‌گذاری خارجی، معاهدات دوجانبه و اختلافات سرمایه‌گذاری.'},
+  {id:'researcher-08',  name:'دکتر زهرا کریمی',            role:'پژوهشگر حقوق گمرکی و تسهیل تجارت',     bio:'متخصص حقوق گمرکی، تعرفه‌ها، رویه‌های واردات و صادرات و تسهیل تجارت بین‌الملل.'},
+  {id:'researcher-09',  name:'دکتر محمد رحیمی',            role:'پژوهشگر حقوق مالی و بانکی بین‌المللی',  bio:'پژوهشگر نظام‌های پرداخت بین‌المللی، مبادلات بانکی و مقررات مالی فراملی.'},
+  {id:'researcher-10',  name:'دکتر نگار صادقی',            role:'پژوهشگر حقوق مالکیت فکری و تجارت',      bio:'متخصص حقوق مالکیت فکری، انتقال فناوری و جنبه‌های تجاری حقوق مالکیت معنوی.'}
+];
+
+const faN = n => Number(n).toLocaleString('fa-IR');
+
+/* تاریخ شمسی */
+try{
+  document.getElementById('today').textContent =
+    new Date().toLocaleDateString('fa-IR-u-ca-persian',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+}catch(e){}
+
+/* منوی موبایل */
+const bg=document.getElementById('bg'),nav=document.getElementById('nav');
+bg.onclick=()=>{const o=nav.classList.toggle('open');bg.setAttribute('aria-expanded',o)};
+nav.querySelectorAll('a').forEach(a=>a.onclick=()=>nav.classList.remove('open'));
+
+/* رندر کارت‌ها */
+const grid=document.getElementById('facGrid'),count=document.getElementById('facCount'),search=document.getElementById('facSearch');
+
+function photoHTML(m){
+  /* برای جایگزینی با عکس واقعی، تگ زیر را در قالب قرار دهید:
+     <img src="photos/ID.jpg" alt="NAME">  */
+  return `<div class="fac-photo" aria-hidden="true">
+    <span class="fac-badge">برتر</span>
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></svg>
+  </div>`;
+}
+
+function render(q=''){
+  const term=q.trim();
+  const list=RESEARCHERS.filter(m=>m.name.includes(term)||m.role.includes(term)||m.bio.includes(term));
+  count.textContent = faN(list.length)+' پژوهشگر برتر';
+  if(!list.length){
+    grid.innerHTML = '<p class="fac-empty">موردی یافت نشد.</p>';
+    return;
+  }
+  grid.innerHTML = list.map(m=>`
+    <a class="fac-card rv" href="profile.html?id=${m.id}" aria-label="مشاهده پروفایل ${m.name}">
+      ${photoHTML(m)}
+      <div class="fac-info">
+        <h3>${m.name}</h3>
+        <p class="fac-role">${m.role}</p>
+        <p class="fac-bio">${m.bio}</p>
+        <span class="fac-more">مشاهده پروفایل</span>
+      </div>
+    </a>`).join('');
+  observeCards();
+}
+
+/* Reveal */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
+function observeCards(){
+  document.querySelectorAll('.fac-card.rv').forEach(el=>io.observe(el));
+}
+
+render();
+search.oninput = e => render(e.target.value);
+
+/* Back to top */
+const tot=document.getElementById('tot');
+addEventListener('scroll',()=>tot.classList.toggle('show',scrollY>600),{passive:true});
+tot.onclick=()=>scrollTo({top:0});
+</script>
+</body>
+</html>
